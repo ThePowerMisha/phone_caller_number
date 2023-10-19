@@ -1,0 +1,30 @@
+name: phone_caller_number2
+description: Getting A phone number
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  permission_handler: ^10.2.0
+  system_alert_window: ^1.2.1
+  contacts_service: ^0.6.3
+  awesome_notifications: any
+  url_launcher: any
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
